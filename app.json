@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rickyangzz.iaptest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-iap"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c371f4ab-207e-4299-b2ed-ec6840b8dac2"
+      }
     }
   }
 }
